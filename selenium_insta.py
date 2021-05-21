@@ -79,5 +79,5 @@ class InstaBot:
                 time.sleep(5)
 
 
-samsepiol = InstaBot("sam.sepioljk", "87091887gg")
+samsepiol = InstaBot("USER", "SENHA")
 samsepiol.login()
