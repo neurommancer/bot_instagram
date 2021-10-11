@@ -57,9 +57,7 @@ class InstaBot:
             # Rola a página para garantir que a imagem esteja dentro da área visível.
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             try:
-                comentarios_frases = ["Muito legal!!", "Gostei", "KKKKKK", "Obina é melhor que Eto'o",
-                    "És", "seis e onibus", "nem cavalo aguenta", "habib", "habib és", "putz", "olha aqui tal de bruna",
-                    "minha amigo", "kkkkkkkk"]
+                comentarios_frases = ["cometários para as postagens"]
 
                 # Vai até o botão de comentários.
                 driver.find_element_by_class_name('Ypffh').click()
